@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+.MainCardContainer{
+    height:700px;
+    width:100%;
+/* border:2px solid red; */
+display: flex;
+justify-content:center;
+}
+.MainCardContainer .CardContainer{
+height:75%;
+width:50%;
+border:1px solid lightgray;
+display:flex;
+justify-content:flex-end;
+flex-direction:column;
+align-items: flex-end;
+}
+img{
+width:700px;
+border:2p solid blue;
+}
+.CardContent{
+width:85%;
+/* border:2px solid red; */
+margin-left:100px;
+
+}
+a{
+    text-decoration: none;
+}
