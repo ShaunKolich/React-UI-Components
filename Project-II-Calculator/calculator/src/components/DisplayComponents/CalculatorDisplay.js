@@ -1,2 +1,31 @@
 import React from 'react';
-import './Display.css';
+import '../../less/Display.css';
+
+import OutPutContainer from './CalculatorHeader';
+import ActionButton from '../ButtonComponents/ActionButton'
+
+
+function CalculatorDisplay() {
+    return (
+        <div className='Main_Container'>
+            <div className="Calculator_Container">
+                <OutPutContainer />
+                <div className="Action_Math_Container">
+                    <div className="ActionButton">
+                    </div>
+                    <div className="Math_Container">
+                    </div>
+                </div>
+                <div className="NumberButtonContainer">
+                </div>
+                <div className="ActionButtonZero">
+                    </div>
+
+        </div>
+
+
+        </div >
+    )
+}
+
+export default CalculatorDisplay;
