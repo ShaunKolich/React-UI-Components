@@ -1,5 +1,31 @@
 .Action_Button {
-  width: 350px;
+  width: 275px;
   height: 100px;
-  border: 2px solid red;
+  border: 2px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+}
+.Action_Button p {
+  padding-top: 0;
+  font-size: 26pt;
+  color: #534a4a;
+  font-family: sans-serif;
+}
+.Math_buttons {
+  width: 120px;
+  height: 545px;
+  display: flex;
+  flex-direction: column;
+}
+.Math_buttons .Math {
+  height: 100px;
+  width: 128px;
+  background-color: #750a0a;
+  border: 1px solid lightgrey;
+}
+.Math_buttons .Math i {
+  font-size: 24pt;
+  color: white;
 }
