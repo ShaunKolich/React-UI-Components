@@ -1,11 +1,15 @@
 .Action_Button {
   width: 275px;
-  height: 100px;
+  height: 103px;
   border: 2px solid lightgrey;
   display: flex;
   justify-content: center;
   align-content: center;
   background-color: white;
+  padding-top: 0;
+  font-size: 26pt;
+  color: #534a4a;
+  font-family: sans-serif;
 }
 .Action_Button p {
   padding-top: 0;

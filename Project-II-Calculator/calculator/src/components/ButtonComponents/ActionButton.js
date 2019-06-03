@@ -2,19 +2,15 @@ import React from 'react';
 import '../../less/Button.css';
 
 
-const info = ["clear","0"]
-       
-
-let newInfo = info.map((test, i) => {
-    return <button className="Action_Button" key={i}>{test}</button>
-})
-console.log(newInfo);
-
-function ActionButton(info) {
+function ActionButton(props) {
         
     return (
         <div>
-         {newInfo}              
+          
+          <button className={`Action_Button ${props.className}`}>
+            {props.text}
+        </button>
+           
         </div>
         
     )

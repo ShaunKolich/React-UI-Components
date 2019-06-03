@@ -13,7 +13,7 @@ function CalculatorDisplay() {
                 <OutPutContainer />
                 <div className="Action_Math_Container">
                     <div className="ActionButtonContainer">
-                        <ActionButton/>
+                    <ActionButton className="Action_Button" text ="clear"/> 
                     </div>
                     <div className="Math_Container">
                     <MathButtons/>
@@ -23,7 +23,7 @@ function CalculatorDisplay() {
                     <NumberButton/>
                 </div>
                 <div className="ActionButtonZero">
-                       
+                <ActionButton className="Action_Button" text ="0"/>  
                 </div>
                 
                 
