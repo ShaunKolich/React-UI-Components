@@ -2,20 +2,23 @@ import React from 'react';
 import '../../less/Button.css';
 
 
-const info = ["clear", "0"]; 
-    
-let newInfo = info.map((text,i) => {
-    return <button className="Action_Button" key={i}>{text}</button>
+const info = ["clear","0"]
+       
+
+let newInfo = info.map((test, i) => {
+    return <button className="Action_Button" key={i}>{test}</button>
 })
 console.log(newInfo);
 
-function ActionButton() {
-      return (
+function ActionButton(info) {
+        
+    return (
         <div>
-              {newInfo}    
-               
+         {newInfo}              
         </div>
         
     )
 }
+
 export default ActionButton;
+
