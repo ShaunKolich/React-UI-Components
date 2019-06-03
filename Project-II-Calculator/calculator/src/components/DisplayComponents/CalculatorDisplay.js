@@ -23,7 +23,8 @@ function CalculatorDisplay() {
                     <NumberButton/>
                 </div>
                 <div className="ActionButtonZero">
-                    </div>
+                    <ActionButton/>    
+                </div>
 
         </div>
 

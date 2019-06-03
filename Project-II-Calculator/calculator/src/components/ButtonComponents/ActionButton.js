@@ -1,21 +1,21 @@
 import React from 'react';
 import '../../less/Button.css';
 
-let actionItem = [
-    { name: "clear"
-    },
-    {
-      name:"0"  
-    }
-];
 
+const info = ["clear", "0"]; 
+    
+let newInfo = info.map((text,i) => {
+    return <button className="Action_Button" key={i}>{text}</button>
+})
+console.log(newInfo);
 
-function ActionButton(props) {
-    return (
-        <button className="Action_Button">
-         <p>clear</p>  
-        </button>
-
+function ActionButton() {
+      return (
+        <div>
+              {newInfo}    
+               
+        </div>
+        
     )
 }
 export default ActionButton;
