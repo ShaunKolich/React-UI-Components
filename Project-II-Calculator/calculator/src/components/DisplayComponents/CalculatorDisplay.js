@@ -4,6 +4,7 @@ import '../../less/Display.css';
 import OutPutContainer from './CalculatorHeader';
 import ActionButton from '../ButtonComponents/ActionButton'
 import MathButtons from '../ButtonComponents/MathButtons'
+import NumberButton from '../ButtonComponents/NumberButton'
 
 function CalculatorDisplay() {
     return (
@@ -19,6 +20,7 @@ function CalculatorDisplay() {
                     </div>
                 </div>
                 <div className="NumberButtonContainer">
+                    <NumberButton/>
                 </div>
                 <div className="ActionButtonZero">
                     </div>

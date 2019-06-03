@@ -29,3 +29,16 @@
   font-size: 24pt;
   color: white;
 }
+.Number_Container {
+  width: 280px;
+  height: 298px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Number_Container .Math {
+  width: 91px;
+  height: 100px;
+  border: 1px solid lightgrey;
+  font-size: 20pt;
+  background-color: white;
+}

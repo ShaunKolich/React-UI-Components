@@ -21,14 +21,15 @@
   height: 100px;
 }
 .Main_Container .Action_Math_Container .Math_Container {
-  width: 120px;
-  height: 545px;
+  width: 130px;
+  height: 500px;
+  border: 1px solid lightgrey;
   display: flex;
   flex-direction: column;
 }
 .Main_Container .NumberButtonContainer {
-  width: 277px;
-  height: 340px;
+  width: 280px;
+  height: 298px;
   display: flex;
   flex-wrap: wrap;
 }
